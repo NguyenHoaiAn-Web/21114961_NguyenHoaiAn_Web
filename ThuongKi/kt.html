@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        #header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #menu {
+            display: flex;
+            width: 88%;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        #left_menu {
+            display: flex;
+            justify-content: space-evenly;
+            width: 27%;
+            color: gray;
+            font-weight: bold;
+        }
+        #logo {
+            display: flex;
+            justify-content: space-around;
+            width: 40%;
+        }
+
+        #right_menu {
+            display: flex;
+            justify-content: space-evenly;
+            width: 27%;
+        }
+        #search {
+            width: 90%;
+            height: 30px;
+            border: none;
+            position: absolute;
+            padding-left: 21px;
+            outline: none;
+            left: 4px;
+            top: 2px;
+        }
+        #search {
+            width: 90%;
+            height: 30px;
+            border: none;
+            position: absolute;
+            padding-left: 21px;
+            outline: none;
+            left: 4px;
+            top: 2px;
+        }
+        #banner {
+            display: flex;
+            height: 225px;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+        }
+
+        #title {
+            font-size: 58px;
+        }
+
+        #line_item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #search {
+            width: 90%;
+            height: 30px;
+            border: none;
+            position: absolute;
+            padding-left: 21px;
+            outline: none;
+            left: 4px;
+            top: 2px;
+        }
+        #banner {
+            display: flex;
+            height: 225px;
+            justify-content: center;
+            width: 100%;
+            align-items: center;
+        }
+
+        #title {
+            font-size: 58px;
+        }
+
+        #items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #footer {
+            background-color: black;
+            display: flex;
+            color: #fff;
+            justify-content: space-around;
+            height: 377px;
+            align-items: center;
+        }
+
+        #select {
+            background-color: black;
+            color: #fff;
+            height: 35px;
+            border: #fff solid 1px;
+            border-radius: 3px;
+        }
+
+        #receive {
+            width: 30%;
+        }
+
+        #container_input {
+            display: flex;
+            margin-bottom: 16px;
+        }
+
+        #txtEmail {
+            background-color: black;
+            color: #fff;
+            border: 1px groove #fff;
+            border-right: white solid 1px;
+            border-radius: 5px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            width: 87%;
+            height: 46px;
+            padding-left: 12%;
+            z-index: 2;
+            position: absolute;
+        }
+        #subscribe {
+            height: 49px;
+            border: #fff solid 1px;
+            border-radius: 5px;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        #btnSearch {
+            background-color: white;
+            color: black;
+            position: absolute;
+            z-index: 3;
+            top: 10px;
+            left: 0px;
+            width: 4%;
+        }
+        #menu{
+            width: 77%;
+            }
+        
+        form {
+            position: relative;
+            border-radius: 5px;
+            width: 53%;
+            border: gray solid 1px;
+            height: 34px;
+        }
+
+       
+        .item {
+            display: flex;
+            width: 81%;
+            height: 43%;
+            border: lightgray solid 1.5px;
+            border-radius: 10px;
+            margin-bottom: 60px;
+            
+        }
+
+        .item0 {
+            background: url(Images/Image\ 1\ \(3\).png) no-repeat;
+            background-size: 100%;
+            display: flex;
+            width: 81%;
+            height: 43%;
+            border: lightgray solid 1px;
+            border-radius: 10px;
+            margin-bottom: 60px;
+        }
+
+        .set {
+            display: flex;
+            justify-content: center;
+        }
+
+        .paragraph {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 80%;
+            font-size: medium;
+        }
+
+        button {
+            color: #fff;
+            background-color:rgb(12, 159, 100);
+            border: none;
+            border-radius: 3px;
+            width: 45%;
+            height: 15%;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <div id="menu">
+                <div id="left_menu">
+                    <div>Shop</div>
+                    <div>Offers</div>
+                    <div>Our Story</div>
+                    <div>Blog</div>
+                </div>
+                <div id="logo">
+                    <div>
+                        <img src="Images/Image 1.png" alt="" style="height: 42px;">
+                    </div>
+                </div>
+                <div id="right_menu">
+                    <form>
+                        <button id="btnSearch"><i></i></button>
+                        <input type="search" placeholder="Search product..." id="search">
+                    </form>
+                    <div><img src="Images/Button 1.png" alt=""></div>
+                    <div><img src="Images/Avatar 1.png" alt=""></div>
+                </div>
+            </div>
+            <div id="banner">
+                <div id="title"><b>Promotions</b></div>
+            </div>
+            <div id="items">
+                <div class="item">
+                    <div><img src="Images/Image 1 (1).png" alt="" style="height: 100%;"></div>
+                    <div class="set">
+                        <div class="paragraph">
+                            <h1>Promotion title</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo eum doloremque expedita
+                                repellat consequatur necessitatibus magnam? Ipsa, quidem recusandae.</p>
+                            <p style="color: gray;"><i>*Lorem ipsum dolor sit amet, consectetur adipisicing.</i></p>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="set">
+                        <div class="paragraph">
+                            <h1>Promotion title</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nemo eum doloremque expedita
+                                repellat consequatur necessitatibus magnam? Ipsa, quidem recusandae.</p>
+                            <p style="color: gray;"><i>*Lorem ipsum dolor sit amet, consectetur adipisicing.</i></p>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                    <div><img src="Images/Image 1 (2).png" alt="lmon" style="height: 100%;"></div>
+                </div>
+                <div class="item0">
+                    <div><img src="Images/Image 1 (2).png" alt="" style="opacity: 0;"></div>
+                    <div class="set">
+                        <div class="paragraph" style="height: 100%; justify-content: center;">
+                            <h1>Gift for your skin</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi aperiam
+                                dolores necessitatibus?</p>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="set" style="justify-content: space-around; width: 35%;">
+                <div id="About">
+                    <h3>About</h3>
+                    <p>Home</p>
+                    <p>Shop</p>
+                    <p>Our story</p>
+                    <p>Blogs</p>
+                    <div><select name="select" id="select">
+                            <option value="English">English</option>
+                            <option value="Vn">Vietnamese</option>
+                        </select></div>
+                </div>
+                <div id="Help">
+                    <h3>Help</h3>
+                    <p>Shipping & Return</p>
+                    <p>Track Order</p>
+                    <p>FAQs</p>
+                </div>
+                <div id="Contact">
+                    <h3>Contact</h3>
+                    <p>Phone:</p>
+                    <p class="bold">(+1)123 456 7893</p>
+                    <p>Email:</p>
+                    <p class="bold">name@email.com</p>
+                </div>
+            </div>
+            <div id="receive">
+                <h3>Receive new promotions</h3>
+                <p>Duis ea tempor commodo amet rephehende</p>
+                <div id="container_input" style="display: flex;">
+                    <div style="position: relative; z-index: 1; width: 100%;">
+                        <input type="email" name="txtEmail" id="txtEmail" class="ti-email"
+                            placeholder="Input your email">
+                        <label for="txtEmail" class="ti-email"></label>
+
+                    </div>
+                    <button id="subscribe">Subscribe</button>
+                </div>
+                <div>
+                    <img src="Images/Twitter 1.png" alt="">
+                    <img src="Images/Facebook 1.png" alt="">
+                    <img src="Images/LinkedIn 1.png" alt="">
+                    <img src="Images/YouTube 1.png" alt="">
+                </div>
+                <p style="text-align: center;">&copy; 2022 Brand, Inc <span>&#9679;</span> Privacy <span>&#9679;</span>
+                    Terms <span>&#9679;</span> Sitemap</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
